@@ -1,4 +1,4 @@
-## 📚 ft_printf - 42 Kocaeli Projesi
+## 🤖 ft_printf | Ecole 42
 
  Bu repository, C dilindeki standart printf fonksiyonunun kendi implementasyonumu içerir. 42 müfredatının bir parçası olan bu proje, değişken sayıda argüman alan fonksiyonların (variadic functions) nasıl çalıştığını anlamak ve C dilindeki temel yetenekleri derinleştirmek amacıyla geliştirilmiştir.
 
