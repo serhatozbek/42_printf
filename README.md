@@ -1,16 +1,16 @@
-# 📚 ft_printf - 42 Kocaeli Projesi
+## 📚 ft_printf - 42 Kocaeli Projesi
 
-### Bu repository, C dilindeki standart printf fonksiyonunun kendi implementasyonumu içerir. 42 müfredatının bir parçası olan bu proje, değişken sayıda argüman alan fonksiyonların (variadic functions) nasıl çalıştığını anlamak ve C dilindeki temel yetenekleri derinleştirmek amacıyla geliştirilmiştir.
+ Bu repository, C dilindeki standart printf fonksiyonunun kendi implementasyonumu içerir. 42 müfredatının bir parçası olan bu proje, değişken sayıda argüman alan fonksiyonların (variadic functions) nasıl çalıştığını anlamak ve C dilindeki temel yetenekleri derinleştirmek amacıyla geliştirilmiştir.
 
-## 🚀 Projenin Amacı
+### 🚀 Projenin Amacı
 
-### ft_printf, orijinal printf fonksiyonunun temel davranışlarını taklit eder. Belirtilen format belirteçlerine göre ekrana çeşitli veri türlerini basabilen bir kütüphane oluşturmayı hedefler. Bu proje sayesinde C'de bellek yönetimi, pointer kullanımı ve değişken argümanlı fonksiyonlar gibi konularda yetkinlik kazanılmıştır.
+ ft_printf, orijinal printf fonksiyonunun temel davranışlarını taklit eder. Belirtilen format belirteçlerine göre ekrana çeşitli veri türlerini basabilen bir kütüphane oluşturmayı hedefler. Bu proje sayesinde C'de bellek yönetimi, pointer kullanımı ve değişken argümanlı fonksiyonlar gibi konularda yetkinlik kazanılmıştır.
 
 ---
 
-## ✨ Desteklenen Format Belirteçleri
+### ✨ Desteklenen Format Belirteçleri
 
-### Bu ft_printf implementasyonu aşağıdaki format belirteçlerini desteklemektedir:
+ Bu ft_printf implementasyonu aşağıdaki format belirteçlerini desteklemektedir:
 
 ```bash
 # %c : Tek bir karakteri (char) basar.
@@ -33,9 +33,9 @@
 ```
 ---
 
-## 🛠️ Nasıl Kullanılır?
+### 🛠️ Nasıl Kullanılır?
 
-### Projeyi kullanmak için repository'yi klonlayın ve make komutunu çalıştırarak kütüphaneyi (libftprintf.a) derleyin.
+ Projeyi kullanmak için repository'yi klonlayın ve make komutunu çalıştırarak kütüphaneyi (libftprintf.a) derleyin.
 
 ```shell
 
@@ -50,9 +50,9 @@ make
 ```
 ---
 
-## Kendi Projende Kullanım
+### Kendi Projende Kullanım
 
-### Oluşturulan libftprintf.a kütüphanesini ve ft_printf.h başlık dosyasını kendi projenize dahil edebilirsiniz. Kendi C dosyanızı derlerken kütüphaneyi bağlamayı unutmayın:
+ Oluşturulan libftprintf.a kütüphanesini ve ft_printf.h başlık dosyasını kendi projenize dahil edebilirsiniz. Kendi C dosyanızı derlerken kütüphaneyi bağlamayı unutmayın:
 
 ```c
 
@@ -82,8 +82,8 @@ cc main.c -L. -lftprintf -o program
 
 ---
 
-## ⚠️ Sorumluluk Reddi
+### ⚠️ Sorumluluk Reddi
 
-### Bu repository'deki çözümler tamamen eğitim ve portföy amaçlıdır. 42'nin onur kuralları (honour code) gereği, Common Core sürecindeki öğrencilerin çözümleri kopyalaması kesinlikle yasaktır. Buradaki kodlar, repodaki projeyi tamamlamış biri olarak gelişimimi göstermek ve gelecekteki projelerim için bir referans noktası oluşturmak amacıyla paylaşılmıştır.
+ Bu repository'deki çözümler tamamen eğitim ve portföy amaçlıdır. 42'nin onur kuralları (honour code) gereği, Common Core sürecindeki öğrencilerin çözümleri kopyalaması kesinlikle yasaktır. Buradaki kodlar, repodaki projeyi tamamlamış biri olarak gelişimimi göstermek ve gelecekteki projelerim için bir referans noktası oluşturmak amacıyla paylaşılmıştır.
 
 ---
